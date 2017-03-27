@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "453271253579",
+    "project_id": "livescope-162609"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453271253579:android:7201805ec0d122e3",
+        "android_client_info": {
+          "package_name": "trainedge.livescope"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453271253579-2h8uphpbqvtjo7c8p3aeehvqekb16355.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "453271253579-59prlagdt2eevpeplan06m7scvdl0rja.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "trainedge.livescope",
+            "certificate_hash": "638ed4d54b80bc00f0d10b8f268ad52a01b61c74"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiuPDUzIZTv3pyOV3f2QQyOuxvGn3IJ6A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
