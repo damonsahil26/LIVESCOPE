@@ -1,7 +1,9 @@
 {
   "project_info": {
     "project_number": "453271253579",
-    "project_id": "livescope-162609"
+    "firebase_url": "https://livescope-162609.firebaseio.com",
+    "project_id": "livescope-162609",
+    "storage_bucket": "livescope-162609.appspot.com"
   },
   "client": [
     {
@@ -12,6 +14,10 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "453271253579-l88sf1ut9ljuv0dhokvevq29bcl40dmd.apps.googleusercontent.com",
+          "client_type": 3
+        },
         {
           "client_id": "453271253579-2h8uphpbqvtjo7c8p3aeehvqekb16355.apps.googleusercontent.com",
           "client_type": 3
@@ -35,11 +41,16 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "453271253579-l88sf1ut9ljuv0dhokvevq29bcl40dmd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
-          "status": 1
+          "status": 2
         }
       }
     }
