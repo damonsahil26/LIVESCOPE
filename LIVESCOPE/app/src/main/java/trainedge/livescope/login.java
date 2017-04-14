@@ -130,7 +130,11 @@ textView.setText("Login Success   \n"
             Name.setText(name);
             Email.setText(email);
             Glide.with(this).load(img_url).into(prof_pic);
+
             updatedUI(true);
+            Intent myIntent = new Intent(login.this, home.class);
+            startActivity(myIntent);
+            finish();
 
 
 
@@ -146,6 +150,7 @@ textView.setText("Login Success   \n"
         {
             prof_section.setVisibility(View.VISIBLE);
             signin.setVisibility(View.GONE);
+
         }
         else {
             prof_section.setVisibility(View.GONE);

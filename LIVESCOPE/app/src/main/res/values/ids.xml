@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="icon_frame" type="id" />
+    <item name="widget_frame" type="id" />
+    <item name="summary" type="id" />
+</resources>
