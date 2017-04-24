@@ -5,4 +5,16 @@
     <color name="colorAccent">#406dff</color>
     <color name="selectable_background">#44c8da</color>
     <color name="black_overlay">#66000000</color>
+    <color name="isl_target_activity_view_label">#212121</color>
+    <color name="isl_target_activity_view_background">@android:color/white</color>
+    <color name="isl_target_activity_header_view_background">@android:color/white</color>
+    <color name="isl_target_activity_header_view_text_color">#767676</color>
+    <color name="isl_activity_translucent_background">#88000000</color>
+
+    <color name="primary_material_dark_1">#931d1d</color>
+    <color name="controlButtonPressed">#80ff8400</color>
+    <color name="multiStateButtonPressed">#80ff8400</color>
+    <color name="multiStateButtonDisabled">#c1636363</color>
+
+
 </resources>

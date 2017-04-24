@@ -101,6 +101,7 @@ public class Settings extends AppCompatActivity implements CompoundButton.OnChec
             Intent privintent = new Intent(Settings.this,priv_pol.class);
             startActivity(privintent);
         }
+
         if (v.getId() == R.id.share) {
             try {
                 Intent i = new Intent(Intent.ACTION_SEND);

@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="trainedge.livescope">
-<uses-feature android:name="android.hardware.camera2" android:required="true" ></uses-feature>
+
+    <uses-sdk tools:overrideLibrary="com.wowza.gocoder.sdk.android" />
+    add
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="true" />
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
 
     <uses-feature android:name="android.hardware.camera" />
 
@@ -14,23 +25,19 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity
             android:name=".login"
             android:label="@string/title_activity_login"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".home"
             android:label="@string/title_activity_home"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>>
-
-
-
+            android:theme="@style/AppTheme.NoActionBar" />
+        >
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
+
         <activity
             android:name="com.facebook.CustomTabActivity"
             android:exported="true">
@@ -53,33 +60,34 @@
             android:label="@string/title_activity_feedback"
             android:parentActivityName=".home"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".SplashActivity"
             android:label="@string/title_activity_splash_screen"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".acc_details"
+            android:label="@string/title_activity_acc_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".priv_pol"
+            android:label="@string/title_activity_priv_pol"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Streaming"
+            android:configChanges="orientation|keyboardHidden|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Settings"
-            android:label="@string/title_activity_settings"
-android:parentActivityName=".home"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".acc_details"
-            android:label="@string/title_activity_acc_details"
-
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".priv_pol"
-            android:label="@string/title_activity_priv_pol"
-
-            android:theme="@style/AppTheme.NoActionBar" />
-
+        <activity android:name=".appinvite" />
+        <activity android:name=".deep_link"></activity>
     </application>
 
 </manifest>
